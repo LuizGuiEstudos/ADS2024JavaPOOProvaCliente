@@ -59,7 +59,7 @@ public class Pessoa {
 	{
 		
 		//LOOP - BUSCA TELEFONE
-		for( int i = 0; i<=pessoas.size(); i++ ) 
+		for( int i = 0; i<pessoas.size(); i++ ) 
 		{
 			Pessoa IPess = pessoas.get(i);
 			if(  IPess.telefone.equals(tel) ) { //ACHOU

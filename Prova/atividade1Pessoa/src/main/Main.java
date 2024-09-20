@@ -85,6 +85,10 @@ public class Main {
 		
 		pBuscada = Pessoa.buscarTelefone(pTel);
 		
+		if( pBuscada == null ) {
+			System.out.println( ">TELEFONE inexistente!!!");
+			return;
+		}
 		System.out.println( ">O TELEFONE " + pTel + " pertence a seguinte pessoa: " );
 		Pessoa.printPessoa(pBuscada);
 		
